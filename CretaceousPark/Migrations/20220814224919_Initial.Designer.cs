@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CretaceousPark.Migrations
 {
     [DbContext(typeof(CretaceousParkContext))]
-    [Migration("20220814223025_SeedData")]
-    partial class SeedData
+    [Migration("20220814224919_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
